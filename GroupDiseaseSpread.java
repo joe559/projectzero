@@ -195,7 +195,7 @@ public class GroupDiseaseSpread
         char mathType = 'a';
         for(int i = 0; i < squareRow; i++)
         {
-            pastLine = inFS.nextLine();
+            pastLine = inFS.nextLine(); 
             if(i == positionX)
             {
                 mathType = pastLine.charAt(positionY);
