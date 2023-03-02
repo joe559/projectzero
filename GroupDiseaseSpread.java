@@ -1,8 +1,5 @@
 import java.util.Scanner;
 import java.io.*;
-
-//Michael Michel
-//Julia A.
 //Jose Nunez
 //Vanisa S.
 public class GroupDiseaseSpread
