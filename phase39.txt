@@ -1,0 +1,4 @@
+RII
+RRR
+SRR
+phase39.txt

@@ -4,7 +4,6 @@ import java.io.*;
 //Vanisa S.
 public class GroupDiseaseSpread
 {
-    
     private static int numIndividuals;
     private static int numTimeSteps;
     private static double infectionRate = -1;
@@ -20,7 +19,6 @@ public class GroupDiseaseSpread
     private static int TimeCounter = 0;
     private static int patientZeroRow = -1;
     private static int patientZeroCol = -1;
-
     public GroupDiseaseSpread(int population, int totalTime, double iRate, double rRate)
     {
         numIndividuals = population;
@@ -340,8 +338,7 @@ public class GroupDiseaseSpread
         outFS.println("Number of Recovered: " + countR);
         outFS.println("Number of Potential Cases: " + countS);
         outFS.println("Current Ratio: Infected / Total Population " + countI + "/" + numIndividuals);
-        fileString.close();
-        
+        fileString.close(); 
         
         System.out.println("Number of Infected: " + countI);
         System.out.println("Number of Recovered: " + countR);
@@ -353,13 +350,11 @@ public class GroupDiseaseSpread
     public static void TimeStepChange() throws IOException
     {
         TimeCounter++;
-        nameGen(TimeCounter);
-        
+        nameGen(TimeCounter);     
         files = new FileOutputStream(currentStep);
-        outFS = new PrintWriter(files);
-        
-        
+        outFS = new PrintWriter(files);    
         int x = 0;
+        
         if(TimeCounter > 1)
         {x++;}
         for(int i = 0; i < squareRow; i++)

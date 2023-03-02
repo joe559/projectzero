@@ -1,0 +1,4 @@
+RRI
+RRR
+SRR
+phase42.txt

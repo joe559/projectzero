@@ -1,0 +1,4 @@
+SIS
+RRR
+SRR
+phase27.txt

@@ -1,0 +1,4 @@
+III
+RRR
+SRR
+phase32.txt
